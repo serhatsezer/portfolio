@@ -25,3 +25,10 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+
+@layer components {
+  .text-body {
+    @apply font-normal text-2xl text-gray-300;
+  }
+}
