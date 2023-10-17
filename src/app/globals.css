@@ -29,6 +29,6 @@ body {
 
 @layer components {
   .text-body {
-    @apply font-normal text-2xl text-gray-300;
+    @apply font-normal text-2xl dark:text-gray-300;
   }
 }
