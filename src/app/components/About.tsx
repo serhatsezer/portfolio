@@ -2,7 +2,7 @@ import React from "react";
 
 function About() {
   return (
-    <section className="px-10 min-h-screen">
+    <section className="px-10 h-full">
       <div className="flex md:flex-row gap-5 sm:flex-col">
         <div>
           <p className="text-body">
@@ -17,6 +17,10 @@ function About() {
             Tech stack that I mostly use is{" "}
             <span className="text-transparent bg-clip-text bg-gradient-to-r to-orange-600 from-red-700">
               Swift
+            </span>
+            ,{" "}
+            <span className="text-transparent bg-clip-text bg-gradient-to-r to-purple-900 from-purple-400">
+              Kotlin{" "}
             </span>
             ,{" "}
             <span className="text-transparent bg-clip-text bg-gradient-to-r to-blue-300 from-blue-500">

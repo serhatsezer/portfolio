@@ -16,7 +16,7 @@ const Header = () => {
           <ul className="xl:flex-row xl:text-xl text-sm flex-col flex items-center justify-center gap-3">
             <li>
               <a
-                className="transition ease-out hover:text-blue-300"
+                className="transition ease-linear hover:text-slate-500 dark:hover:text-blue-300"
                 href="https://linkedin.com/in/serhatsezer"
               >
                 Linkedin
@@ -24,7 +24,7 @@ const Header = () => {
             </li>
             <li>
               <a
-                className="transition ease-out hover:text-blue-300"
+                className="transition ease-linear hover:text-slate-500 dark:hover:text-blue-300"
                 href="https://twitter.com/serhatsezer"
               >
                 Twitter
@@ -32,7 +32,7 @@ const Header = () => {
             </li>
             <li>
               <a
-                className="transition ease-out hover:text-blue-300"
+                className="transition ease-linear hover:text-slate-500 dark:hover:text-blue-300"
                 href="mailto:serhat.szr@gmail.com"
               >
                 E-mail
